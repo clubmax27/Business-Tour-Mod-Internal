@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Exclude DLL build
+!Mod Menu Business Tour C++.dll
