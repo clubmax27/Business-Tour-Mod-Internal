@@ -36,7 +36,7 @@ void InitiatePatch()
 	{
 		Sleep(100); // Sleep 0.1 second to not overwhelm the processor
 
-		if (GetAsyncKeyState(0x31) < 0) // If "1" key is pressed
+		if ((GetAsyncKeyState(0x31) < 0) || (GetAsyncKeyState(0x61) < 0)) // If "1" key is pressed
 		{
 			MoneyAddress = m.AoBscan((DWORD)&MoneyBytePattern, MoneyByteMask, 900);
 			m.WriteMemory(MoneyAddress + 0x10, 20000000); // 0x10 is the main money offset
