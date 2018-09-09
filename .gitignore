@@ -8,6 +8,9 @@
 *.ipdb
 *.pdb
 
+# Visual studio files
+.vs/
+
 # Prerequisites
 *.d
 
