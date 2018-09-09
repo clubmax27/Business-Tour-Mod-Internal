@@ -7,6 +7,9 @@
 *.iobj
 *.ipdb
 *.pdb
+Mod Menu Business Tour C++/Debug/
+Mod Menu Business Tour C++/Release/
+Mod Menu Business Tour C++/x64/
 
 # Visual studio files
 .vs/
