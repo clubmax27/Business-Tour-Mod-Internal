@@ -5,4 +5,4 @@ configuration: Release
 platform: x86
 build:
   project: Mod Menu Business Tour C++\Mod Menu Business Tour C++.vcxproj
-  verbosity: detailed
+  verbosity: minimal
