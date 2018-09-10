@@ -6,3 +6,6 @@ platform: x86
 build:
   project: Mod Menu Business Tour C++\Mod Menu Business Tour C++.vcxproj
   verbosity: minimal
+deploy:
+  provider: Environment
+  name: window
